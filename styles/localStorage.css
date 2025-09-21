@@ -1,0 +1,53 @@
+.getName_shown{
+				position: fixed;
+				top: 20vh;
+				left: 10vw;
+				background-color: cyan;
+				z-index: 15;
+				height: 30vw;
+				width: 80vw;
+				border-radius: 4vw ;
+				border: 2px solid black;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				font-size: 4vw ;
+}
+.getName_hidden{
+				visibility: hidden ;
+				position: absolute;
+}
+#getName_input{
+				border-radius: 2vw ;
+				font-size: 4vw ;
+				width: 60vw;
+}
+.getName_shown button{
+				color: white;
+				background-color: blue;
+				width: 25vw ;
+				border-radius: 2vw ;
+				margin-top: 5vw;
+				font-size: 4vw ;
+}
+
+.treatUser_hidden{
+				visibility: hidden;
+				position: fixed;
+				height: 0;
+				margin: 0;
+}
+.treatUser_shown{
+				position: fixed;
+				top: 40vh;
+				left: 10vw;
+				padding: 10vw;
+				font-size: 5vw ;
+				z-index: 10;
+				width: 58vw;
+				color: white ;
+				background-color: black;
+				border-radius: 5vw ;
+				border: 1vw solid cyan;
+}

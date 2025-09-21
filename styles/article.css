@@ -1,0 +1,13 @@
+.contentTxt{
+				padding: 2vw 4vw;
+				border: 2px solid #00aacc;
+				border-radius: 2vw ;
+				margin: 5vw 0;
+				background-color: rgba(0, 0, 0, 0.6,);
+				color: whitesmoke;
+				font-family: Arial, Helvetia, sans-serif;
+				word-spacing: 4px;
+				font-size: 4vw ;
+				font-weight: 2vw;
+				backdrop-filter: blur(11px);
+}

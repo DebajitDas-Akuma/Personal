@@ -1,0 +1,140 @@
+
+*{
+				margin: 0;
+				ppadding: 0;
+}
+#background{
+				width: 99vw;
+				height :50vw;
+				border: 1px solid cyan;
+				border-radius: 2vw ;
+				backdrop-filter: blur(10px);
+}
+#introImgBG{
+				width: 25vw;
+				height: 25vw;
+				border-radius: 100% ;
+				border-top: 1vw solid red;
+				border-right: 1vw solid hotpink;
+				border-left: 1vw solid blue;
+				border-bottom: 1vw solid green;
+				position: absolute;
+				top: 22vw;
+				left: 10vw;
+				animation: rotate 3s linear infinite;
+}
+@keyframes rotate {
+				from{
+								transform: rotateZ(0deg);
+				}
+				to{
+								transform: rotateZ(360deg);
+				}
+}
+#introImg{
+				width: 25vw;
+				height: 25vw;
+				border-radius: 100% ;
+				position: absolute;
+				top: 23vw;
+				left: 11vw;
+}
+
+
+.profileBTN{
+				background-color: blue;
+				color: white;
+				overflow: hidden;
+				height: 10vw;
+				width: 15vw ;
+				padding: 0 2vw;
+				font-size: 5vw ;
+				text-align: center;
+				border-radius: 10vw;
+				position: absolute;
+				top: 30vw;
+				left: 80vw;
+				
+				animation-name: pBtnAnimationR;
+				animation-duration: 0.5s ;
+				animation-timing-function: ease-in-out;
+}
+@keyframes pBtnAnimationR {
+				from{
+								height: 40vw;				
+								width: 30vw ;
+								top: 20vw;
+								left: 65vw;
+								background-color: rgba(135, 255, 251, 0.5);
+				}
+				to{
+								height: 10vw;
+								width: 15vw ;
+								top: 30vw;
+								left: 80vw;
+								background-color: black;
+				}
+}
+
+.pBtn_toggled{
+				background: linear-gradient(to right, #0e00cd, #811000);
+				width: 30vw ;
+				height: 40vw ;
+				border: 1px solid black;
+				border-radius: 5vw ;
+				position: absolute;
+				top: 20vw;
+				left: 65vw;
+				
+				animation-name: pBtnAnimation;
+				animation-duration: 0.5s;
+				animation-timing-function: ease-in-out;
+}
+@keyframes pBtnAnimation {
+				from{
+								height: 10vw;
+								width: 15vw ;
+								top: 30vw;
+								left: 80vw;
+								background-color: black;
+				}
+				to{
+								height : 40vw ;
+								width: 30vw ;
+								top: 20vw;
+								left: 65vw;
+								background-color: rgba(135, 255, 251, 0.5);
+				}
+}
+
+#clickBox{
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				align-items: flex-start;
+}
+#pBtn_cancel{
+				background-color: red;
+				color: white;
+				width: 15vw;
+				height: 8vw;
+				text-align: center;
+				font-size: 5vw;
+				margin: auto auto 10vw 15vw;
+				border-radius: 5vw;
+}
+.pBtn_flex{
+				border: 1px so black;
+				margin: 0 0 0 2vw;
+}
+.pBtn_flex li{
+				list-style: none;
+				margin: 2vw auto;
+}
+.pBtn_flex li a{
+				font-size: 4vw;
+				box-shadow: 2vw 1vw 2vw rgba(250, 250, 0, 0.8);
+				text-decoration: none;
+				color: white;
+				background-color: rgba(255,255,255, 0.2); 
+}
